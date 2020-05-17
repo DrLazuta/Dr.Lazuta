@@ -1,0 +1,111 @@
+.bg-secondary {
+  background-image: url(../assets//img/photo5251519194028158248.png),
+    url(../assets//img/photo5897667001889960643.png),
+    url(../assets//img//purple_fire.jpg);
+  background-position-x: 90%, 38%, 0;
+  background-position-y: 5%, 0%, 0;
+  background-size: 86px, 70px, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  animation: girl 40s linear infinite;
+}
+@keyframes girl {
+  from { background-position: 3000px 90%, 180% 40%, 0 0; }
+  to { background-position: -2000px 90%, -300px 20%, 0 0; }
+ }
+.masthead .masthead-avatar {
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+}
+body {
+  background-color: black;
+}
+.modal-content {
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  background-color: black;
+}
+.portfolio {
+  background-image: url(../assets//img/photo5251519194028158248.png),
+    url(../assets//img/photo5897667001889960643.png),
+    url(../assets//img/photo5897667001889960605.png);
+  background-position-x: 90%, 38%, 0;
+  background-position-y: 5%, 0%, 0;
+  background-size: 86px, 70px, 100px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  animation: girl2 30s linear infinite;
+}
+@keyframes girl2 {
+  from { background-position: 3000px 90%, 180% 40%, 0 0; }
+  to { background-position: -2000px 90%, -300px 20%, 100% 100%; }
+ }
+
+ .element-animation{
+  animation: animationFrames ease 35s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames ease 35s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationFrames ease 35s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationFrames ease 35s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationFrames ease 35s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames{
+  0% {
+    transform:  translate(-357px,-200px)  ;
+  }
+  100% {
+    transform:  translate(100% ,100%)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(-357px,-200px)  ;
+  }
+  100% {
+    -moz-transform:  translate(314px,145px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(-357px,-200px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(314px,145px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(-357px,-200px)  ;
+  }
+  100% {
+    -o-transform:  translate(314px,145px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(-357px,-200px)  ;
+  }
+  100% {
+    -ms-transform:  translate(314px,145px)  ;
+  }
+}
